@@ -134,6 +134,12 @@ public class AuthenticationController {
         return user;
     }
 
+    // new post mapping
+    @PostMapping("/users/me")
+    public User getUser(@RequestAttribute("authenticatedUser") User user) {
+        return user;
+    }
+
     @GetMapping("/users/{id}")
     public User getUserById(@PathVariable Long id) {
         return authenticationUserService.getUserById(id);
