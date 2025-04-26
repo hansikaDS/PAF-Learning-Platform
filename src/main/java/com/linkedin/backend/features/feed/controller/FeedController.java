@@ -27,6 +27,11 @@ public class FeedController {
         List<Post> posts = feedService.getFeedPosts(user.getId());
         return ResponseEntity.ok(posts);
     }
+    @PostMapping
+    public ResponseEntity<List<Post>> getFeedPosts(@RequestAttribute("authenticatedUser") User user) {
+        List<Post> posts = feedService.getFeedPosts(user.getId());
+        return ResponseEntity.ok(posts);
+    }
 
     @GetMapping("/posts")
     public ResponseEntity<List<Post>> getAllPosts() {
