@@ -33,14 +33,6 @@ public class BackendController {
         return ResponseEntity.badRequest().body(Map.of("message", errorMessage.toString()));
     }
 
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<Map<String, String>> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
-        StringBuilder errorMessage = new StringBuilder();
-        e.getBindingResult().getFieldErrors().forEach(error ->
-                errorMessage.append(error.getField()).append(": ").append(error.getDefaultMessage()).append("; ")
-        );
-        return ResponseEntity.badRequest().body(Map.of("message", errorMessage.toString()));
-    }
 
 
     @ExceptionHandler(NoResourceFoundException.class)
