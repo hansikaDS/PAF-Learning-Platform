@@ -66,4 +66,9 @@ public class BackendController {
     public ResponseEntity<Map<String, String>> handleMissingServletRequestParameterException(MissingServletRequestParameterException e) {
         return ResponseEntity.badRequest().body(Map.of("message", "Required request parameter is missing."));
     }
+
+    @ExceptionHandler(MissingServletRequestParameterException.class)
+    public ResponseEntity<Map<String, String>> handleMissingServletRequestParameterException(MissingServletRequestParameterException e) {
+        return ResponseEntity.badRequest().body(Map.of("message", "Required request parameter is missing."));
+    }
 }
