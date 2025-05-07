@@ -76,13 +76,7 @@ public class AuthenticationController {
     @PutMapping("/reset-password")
     public Response resetPassword(@RequestParam String newPassword, @RequestParam String token,
             @RequestParam String email) {
-        authenticationUserService.resetPassword(newPassword, email, token);
-        return new Response("Password reset successfully.");
-    }
 
-    @PutMapping("/reset-password")
-    public Response resetPassword(@RequestParam String newPassword, @RequestParam String token,
-            @RequestParam String email) {
         authenticationUserService.resetPassword(email, newPassword, token);
         return new Response("Password reset successfully.");
     }
@@ -141,11 +135,6 @@ public class AuthenticationController {
         return user;
     }
 
-    // new post mappingss
-    @PostMapping("/users/me")
-    public User getUser(@RequestAttribute("authenticatedUser") User user) {
-        return user;
-    }
 
     @GetMapping("/users/{id}")
     public User getUserById(@PathVariable Long id) {

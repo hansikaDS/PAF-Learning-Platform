@@ -110,9 +110,6 @@ public class User {
         this.emailVerificationTokenExpiryDate = emailVerificationTokenExpiryDate;
     }
 
-     public void setPasswordNew(LocalDateTime emailVerificationTokenExpiryDate) {
-        this.emailVerificationTokenExpiryDate = emailVerificationTokenExpiryDate;
-    }
 
     public String getPasswordResetToken() {
         return passwordResetToken;
