@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.hibernate.search:hibernate-search-backend-lucene:7.2.2.Final" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.hibernate.search" artifactId="hibernate-search-backend-lucene" version="7.2.2.Final" baseVersion="7.2.2.Final" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.search/hibernate-search-backend-lucene/7.2.2.Final/2dce421f6efac5a6b63ee81f727ff2dbc5c143af/hibernate-search-backend-lucene-7.2.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.search/hibernate-search-backend-lucene/7.2.2.Final/a52d309e4e47c08489c058d8371098d7d962cd8e/hibernate-search-backend-lucene-7.2.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

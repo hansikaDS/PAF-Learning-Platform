@@ -1,0 +1,141 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"backend\" options=\"-parameters\" />\r\n      <module name=\"backend.main\" options=\"-parameters\" />\r\n      <module name=\"backend.test\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 41f2babdc4e84f497e7d23666f9e2fdf940d1d6a)
++++ b/.idea/compiler.xml	(date 1747416673986)
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel>
++      <module name="backend" target="21" />
++      <module name="backend.main" target="21" />
++      <module name="backend.test" target="21" />
++    </bytecodeTargetLevel>
++  </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+       <module name="backend" options="-parameters" />
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java b/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/resources/application.properties b/src/main/resources/application.properties
+rename from IT22120984- Skill sharing/backend/src/main/resources/application.properties
+rename to src/main/resources/application.properties
+diff --git a/IT22120984- Skill sharing/backend/.gitignore b/.gitignore
+rename from IT22120984- Skill sharing/backend/.gitignore
+rename to .gitignore
+diff --git a/IT22120984- Skill sharing/backend/docker-compose.yml b/docker-compose.yml
+rename from IT22120984- Skill sharing/backend/docker-compose.yml
+rename to docker-compose.yml
+diff --git a/IT22120984- Skill sharing/backend/build.gradle.kts b/Like Comment/backend/build.gradle.kts
+rename from IT22120984- Skill sharing/backend/build.gradle.kts
+rename to Like Comment/backend/build.gradle.kts
+diff --git a/IT22120984- Skill sharing/backend/settings.gradle.kts b/Like Comment/backend/settings.gradle.kts
+rename from IT22120984- Skill sharing/backend/settings.gradle.kts
+rename to Like Comment/backend/settings.gradle.kts
+diff --git a/IT22120984- Skill sharing/backend/gradle/wrapper/gradle-wrapper.properties b/Like Comment/backend/gradle/wrapper/gradle-wrapper.properties
+rename from IT22120984- Skill sharing/backend/gradle/wrapper/gradle-wrapper.properties
+rename to Like Comment/backend/gradle/wrapper/gradle-wrapper.properties
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/BackendApplication.java b/Like Comment/backend/src/main/java/com/linkedin/backend/BackendApplication.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/BackendApplication.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/BackendApplication.java
+diff --git a/IT22120984- Skill sharing/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java b/Like Comment/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java
+rename from IT22120984- Skill sharing/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java
+rename to Like Comment/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/dto/Response.java b/Like Comment/backend/src/main/java/com/linkedin/backend/dto/Response.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/dto/Response.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/dto/Response.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java b/Like Comment/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java
+diff --git a/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/controller/BackendController.java b/Like Comment/backend/src/main/java/com/linkedin/backend/controller/BackendController.java
+rename from IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/controller/BackendController.java
+rename to Like Comment/backend/src/main/java/com/linkedin/backend/controller/BackendController.java
