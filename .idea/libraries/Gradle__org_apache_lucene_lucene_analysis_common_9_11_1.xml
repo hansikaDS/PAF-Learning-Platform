@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.lucene:lucene-analysis-common:9.11.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.apache.lucene" artifactId="lucene-analysis-common" version="9.11.1" baseVersion="9.11.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analysis-common/9.11.1/51286aca019db66311f71496191b4bd7adaf3dcf/lucene-analysis-common-9.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analysis-common/9.11.1/9eaca3eb7e28047841ccbea51707f4aa3756f42a/lucene-analysis-common-9.11.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

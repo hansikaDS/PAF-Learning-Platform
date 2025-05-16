@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.hibernate.search:hibernate-search-util-common:7.2.2.Final" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.hibernate.search" artifactId="hibernate-search-util-common" version="7.2.2.Final" baseVersion="7.2.2.Final" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.search/hibernate-search-util-common/7.2.2.Final/b7071a4bff1b9f5b814a32686139f17e9f4b3945/hibernate-search-util-common-7.2.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.search/hibernate-search-util-common/7.2.2.Final/b921be886deb8a2db7f5e5f68c454a396f24182e/hibernate-search-util-common-7.2.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
