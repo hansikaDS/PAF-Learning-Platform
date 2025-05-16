@@ -5,9 +5,454 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed3c21a-f872-483f-bd60-f751c0267e7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/messaging/controller/MessagingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_carrotsearch_hppc_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_impl_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_jackson_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_smallrye_jandex_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_inject_jakarta_inject_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_14_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_14_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_analysis_common_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_core_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_facet_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_highlighter_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_join_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_memory_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_queries_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_queryparser_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_sandbox_9_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_25_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_awaitility_awaitility_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_jakarta_mail_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_7_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_orm_hibernate_core_6_5_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_search_hibernate_search_backend_lucene_7_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_search_hibernate_search_engine_7_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_search_hibernate_search_mapper_orm_7_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_search_hibernate_search_mapper_pojo_base_7_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_search_hibernate_search_util_common_7_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_6_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_5_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_mail_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_websocket_6_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/backend.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/backend.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/2271540f-fec9-4f0f-9381-f0de8535dfc3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/76072e11-2ed3-4988-8dd5-d4b8a289bc1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/8e96e8d2-8740-4170-b6ce-6608ae886a0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/cover1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/edb425c3-ab12-49c9-a169-13f1d82e049b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/f60aab02-dfb6-414d-8c2e-4b45fad3f98e.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/fe20773f-54cb-4e9f-b43d-e80bef5e178a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/gradle-wrapper1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/gradle-wrapper2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/2271540f-fec9-4f0f-9381-f0de8535dfc3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/76072e11-2ed3-4988-8dd5-d4b8a289bc1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/8e96e8d2-8740-4170-b6ce-6608ae886a0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/edb425c3-ab12-49c9-a169-13f1d82e049b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/f60aab02-dfb6-414d-8c2e-4b45fad3f98e.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/fe20773f-54cb-4e9f-b43d-e80bef5e178a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/controller/MessagingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/dto/MessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/model/Conversation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/repository/ConversationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/messaging/service/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/notifications/controller/NotificationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/notifications/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/notifications/model/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/notifications/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/notifications/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/storage/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/2271540f-fec9-4f0f-9381-f0de8535dfc3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/76072e11-2ed3-4988-8dd5-d4b8a289bc1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/8e96e8d2-8740-4170-b6ce-6608ae886a0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/edb425c3-ab12-49c9-a169-13f1d82e049b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/f60aab02-dfb6-414d-8c2e-4b45fad3f98e.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/backend/uploads/fe20773f-54cb-4e9f-b43d-e80bef5e178a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/.stylelintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/public/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/public/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/public/logo-dark1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/public/logo1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/ApplicationLayout/ApplicationLayout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/ApplicationLayout/ApplicationLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/components/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/components/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/components/Search/Search.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Header/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Input/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Loader/Loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/components/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/AuthenticationLayout/AuthenticationLayout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/AuthenticationLayout/AuthenticationLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/Box/Box.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/Box/Box.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/Seperator/Seperator.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/components/Seperator/Seperator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/contexts/AuthenticationContextProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/hooks/useOauth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Login/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/ResetPassword/ResetPassword.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/ResetPassword/ResetPassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Signup/Signup.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/Signup/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/VerifyEmail/VerifyEmail.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/authentication/pages/VerifyEmail/VerifyEmail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/Comment/Comment.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/Comment/Comment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/RightSidebar/RightSidebar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/RightSidebar/RightSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/TimeAgo/TimeAgo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/components/TimeAgo/TimeAgo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/pages/Feed/Feed.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/pages/Feed/Feed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/pages/Notifications/Notifications.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/pages/Notifications/Notifications.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/feed/utils/date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/features/ws/WebSocketContextProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/hooks/usePageTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/utils/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Like Comment/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/BackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/controller/BackendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/controller/MessagingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/dto/MessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/model/Conversation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/repository/ConversationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/messaging/service/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/notifications/controller/NotificationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/notifications/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/notifications/model/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/notifications/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/notifications/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/storage/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/backend/uploads/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/.stylelintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/public/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/public/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/public/logo-dark1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/public/logo1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/ApplicationLayout/ApplicationLayout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/ApplicationLayout/ApplicationLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/components/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/components/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/components/Search/Search.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Header/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Input/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Loader/Loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/components/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/AuthenticationLayout/AuthenticationLayout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/AuthenticationLayout/AuthenticationLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/Box/Box.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/Box/Box.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/Seperator/Seperator.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/components/Seperator/Seperator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/contexts/AuthenticationContextProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/hooks/useOauth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Login/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/ResetPassword/ResetPassword.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/ResetPassword/ResetPassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Signup/Signup.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/Signup/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/VerifyEmail/VerifyEmail.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/authentication/pages/VerifyEmail/VerifyEmail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/Modal/Modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/Post/Post.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/Post/Post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/RightSidebar/RightSidebar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/RightSidebar/RightSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/TimeAgo/TimeAgo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/components/TimeAgo/TimeAgo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/pages/Feed/Feed.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/pages/Feed/Feed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/pages/Post/Post.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/pages/Post/Post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/feed/utils/date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/features/ws/WebSocketContextProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/hooks/usePageTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/utils/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Post/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/BackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/controller/BackendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/linkedin/backend/BackendApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/configuration/LoadDatabaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/controller/BackendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/controller/BackendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/configuration/AuthenticationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationOauthRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/dto/AuthenticationResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/authentication/utils/JsonWebToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/controller/FeedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/CommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/dto/PostDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/feed/service/FeedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/controller/ConnectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/repository/ConnectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/networking/service/ConnectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/configuration/SearchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/search/service/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/main/java/com/linkedin/backend/features/ws/configuration/WebSocketConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Like Comment/backend/src/test/java/com/linkedin/backend/BackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT22120984- Skill sharing/backend/uploads/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_16_2025_11_06_PM_[Changes]/.gitkeep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +489,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ShahaamM"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShahaamM&quot;
   }
+}</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOOf869M6WgIwB",
+        "number": 11
+      },
+      "lastSeen": 1747417875177
+    }
+  ]
 }]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -71,7 +532,6 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#10 on IT22071316---Learning-Platform-an…tions",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,14 +542,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7ed3c21a-f872-483f-bd60-f751c0267e7b" name="Changes" comment="" />
